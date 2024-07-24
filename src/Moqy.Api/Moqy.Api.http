@@ -1,0 +1,6 @@
+@Moqy.Api_HostAddress = http://localhost:5037
+
+GET {{Moqy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

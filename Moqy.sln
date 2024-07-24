@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D529890-0636-4AAE-B702-C3270CC1B659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moqy.Api", "src\Moqy.Api\Moqy.Api.csproj", "{988F21D2-D066-415F-8741-B9CD3EC673D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{04C49310-5602-4065-BF2F-D81CB1B1226E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moqy.Tests", "tests\Moqy.Tests\Moqy.Tests.csproj", "{A41E66B1-32C2-4E94-ADFB-AA18EC47EE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988F21D2-D066-415F-8741-B9CD3EC673D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988F21D2-D066-415F-8741-B9CD3EC673D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988F21D2-D066-415F-8741-B9CD3EC673D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988F21D2-D066-415F-8741-B9CD3EC673D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41E66B1-32C2-4E94-ADFB-AA18EC47EE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41E66B1-32C2-4E94-ADFB-AA18EC47EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41E66B1-32C2-4E94-ADFB-AA18EC47EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41E66B1-32C2-4E94-ADFB-AA18EC47EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{988F21D2-D066-415F-8741-B9CD3EC673D9} = {0D529890-0636-4AAE-B702-C3270CC1B659}
+		{A41E66B1-32C2-4E94-ADFB-AA18EC47EE6C} = {04C49310-5602-4065-BF2F-D81CB1B1226E}
+	EndGlobalSection
+EndGlobal
